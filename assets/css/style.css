@@ -1,0 +1,230 @@
+/* Resets all elements box model properties */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Removes standard syling of anchor tags */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Styles the psudo navbar on top of the page. */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* Main background image */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Defines to the images position (left) in a section */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Defines to the images position (right) in a section */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Styling for the 3 sections take 75% of width */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Styles the tall thin segment just to the right of the 3 sections 20% of screen */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Sets spacing, size and colors and font for search engine optimization section */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Sets spacing, size and colors and font for online reputation management section */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Sets spacing, size and colors and font for social media marketing section */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Set font color and add space to bottom of lead generation */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Set font color and add space to bottom of brand awareness*/
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Set font color and add space to bottom of cost management*/
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* Sets styling and spacing makes sure it it below both floating objects */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* For the 'Horiseon' in the top left corner in the psudo navbar */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Styles the three options in the psudo navbar */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Sets maximum height size of image in section search engine optimization */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/* Sets maximum height size of image in section online reputation mangement */
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/* Sets maximum height size of image in section social media marketing */
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* Applies spacing and font size for heading in search engine optimization */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Applies spacing and font size for heading in online reputation management */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Applies spacing and font size for heading in social media marketing */
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Positions the title for lead generation */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Positions the title for brand awareness */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Positions the title for lcost management */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Sets size and spacing for lead generation image*/
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Sets size and spacing for  brand awareness image*/
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Sets size and spacing for cost management image */
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Sets font size for heading in the footer */
+.footer h2 {
+    font-size: 20px;
+}
+/* Styles the 'seo' in 'Horiseon' in the psudo navbar */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+/* Gets rid of the standard list styling for the psudo navbar */
+.header div ul {
+    list-style-type: none;
+}
+
+/* Makes the options in the psudo navbar in one line and adds spacing between them */
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
